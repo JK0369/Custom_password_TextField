@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		585CE5C6C6B27A7E29BA0D36 /* Pods_CustomPasswordTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54105E627B3A256E1BFAB789 /* Pods_CustomPasswordTextField.framework */; };
+		E04183C825A7392E006FE359 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04183C725A7392E006FE359 /* AppDelegate.swift */; };
+		E04183CA25A7392E006FE359 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04183C925A7392E006FE359 /* SceneDelegate.swift */; };
+		E04183CC25A7392E006FE359 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04183CB25A7392E006FE359 /* ViewController.swift */; };
+		E04183CF25A7392E006FE359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04183CD25A7392E006FE359 /* Main.storyboard */; };
+		E04183D125A7392F006FE359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E04183D025A7392F006FE359 /* Assets.xcassets */; };
+		E04183D425A7392F006FE359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04183D225A7392F006FE359 /* LaunchScreen.storyboard */; };
+		E04183DD25A73954006FE359 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04183DC25A73954006FE359 /* PasswordTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0367B2EF5CD0D0FC54FC29BA /* Pods-CustomPasswordTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomPasswordTextField.release.xcconfig"; path = "Target Support Files/Pods-CustomPasswordTextField/Pods-CustomPasswordTextField.release.xcconfig"; sourceTree = "<group>"; };
+		1BE2DD3D670F27A423A871CD /* Pods-CustomPasswordTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomPasswordTextField.debug.xcconfig"; path = "Target Support Files/Pods-CustomPasswordTextField/Pods-CustomPasswordTextField.debug.xcconfig"; sourceTree = "<group>"; };
+		54105E627B3A256E1BFAB789 /* Pods_CustomPasswordTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomPasswordTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E04183C425A7392E006FE359 /* CustomPasswordTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPasswordTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E04183C725A7392E006FE359 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E04183C925A7392E006FE359 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E04183CB25A7392E006FE359 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E04183CE25A7392E006FE359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E04183D025A7392F006FE359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E04183D325A7392F006FE359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E04183D525A7392F006FE359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E04183DC25A73954006FE359 /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E04183C125A7392E006FE359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585CE5C6C6B27A7E29BA0D36 /* Pods_CustomPasswordTextField.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12F657A03D5057066A3C94AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54105E627B3A256E1BFAB789 /* Pods_CustomPasswordTextField.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1678A2164282940FDDE1079F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BE2DD3D670F27A423A871CD /* Pods-CustomPasswordTextField.debug.xcconfig */,
+				0367B2EF5CD0D0FC54FC29BA /* Pods-CustomPasswordTextField.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E04183BB25A7392E006FE359 = {
+			isa = PBXGroup;
+			children = (
+				E04183C625A7392E006FE359 /* CustomPasswordTextField */,
+				E04183C525A7392E006FE359 /* Products */,
+				1678A2164282940FDDE1079F /* Pods */,
+				12F657A03D5057066A3C94AB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E04183C525A7392E006FE359 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E04183C425A7392E006FE359 /* CustomPasswordTextField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E04183C625A7392E006FE359 /* CustomPasswordTextField */ = {
+			isa = PBXGroup;
+			children = (
+				E04183C725A7392E006FE359 /* AppDelegate.swift */,
+				E04183C925A7392E006FE359 /* SceneDelegate.swift */,
+				E04183CB25A7392E006FE359 /* ViewController.swift */,
+				E04183CD25A7392E006FE359 /* Main.storyboard */,
+				E04183D025A7392F006FE359 /* Assets.xcassets */,
+				E04183D225A7392F006FE359 /* LaunchScreen.storyboard */,
+				E04183D525A7392F006FE359 /* Info.plist */,
+				E04183DC25A73954006FE359 /* PasswordTextField.swift */,
+			);
+			path = CustomPasswordTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E04183C325A7392E006FE359 /* CustomPasswordTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E04183D825A7392F006FE359 /* Build configuration list for PBXNativeTarget "CustomPasswordTextField" */;
+			buildPhases = (
+				8D16E88065E421C79667C4F9 /* [CP] Check Pods Manifest.lock */,
+				E04183C025A7392E006FE359 /* Sources */,
+				E04183C125A7392E006FE359 /* Frameworks */,
+				E04183C225A7392E006FE359 /* Resources */,
+				2AE54552F6164EE2C840D7B0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomPasswordTextField;
+			productName = CustomPasswordTextField;
+			productReference = E04183C425A7392E006FE359 /* CustomPasswordTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E04183BC25A7392E006FE359 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					E04183C325A7392E006FE359 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = E04183BF25A7392E006FE359 /* Build configuration list for PBXProject "CustomPasswordTextField" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E04183BB25A7392E006FE359;
+			productRefGroup = E04183C525A7392E006FE359 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E04183C325A7392E006FE359 /* CustomPasswordTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E04183C225A7392E006FE359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E04183D425A7392F006FE359 /* LaunchScreen.storyboard in Resources */,
+				E04183D125A7392F006FE359 /* Assets.xcassets in Resources */,
+				E04183CF25A7392E006FE359 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AE54552F6164EE2C840D7B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomPasswordTextField/Pods-CustomPasswordTextField-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomPasswordTextField/Pods-CustomPasswordTextField-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomPasswordTextField/Pods-CustomPasswordTextField-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D16E88065E421C79667C4F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomPasswordTextField-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E04183C025A7392E006FE359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E04183CC25A7392E006FE359 /* ViewController.swift in Sources */,
+				E04183C825A7392E006FE359 /* AppDelegate.swift in Sources */,
+				E04183DD25A73954006FE359 /* PasswordTextField.swift in Sources */,
+				E04183CA25A7392E006FE359 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E04183CD25A7392E006FE359 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E04183CE25A7392E006FE359 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E04183D225A7392F006FE359 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E04183D325A7392F006FE359 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E04183D625A7392F006FE359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E04183D725A7392F006FE359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E04183D925A7392F006FE359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BE2DD3D670F27A423A871CD /* Pods-CustomPasswordTextField.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SS7U83UJNK;
+				INFOPLIST_FILE = CustomPasswordTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jake.CustomPasswordTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E04183DA25A7392F006FE359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0367B2EF5CD0D0FC54FC29BA /* Pods-CustomPasswordTextField.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SS7U83UJNK;
+				INFOPLIST_FILE = CustomPasswordTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jake.CustomPasswordTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E04183BF25A7392E006FE359 /* Build configuration list for PBXProject "CustomPasswordTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E04183D625A7392F006FE359 /* Debug */,
+				E04183D725A7392F006FE359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E04183D825A7392F006FE359 /* Build configuration list for PBXNativeTarget "CustomPasswordTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E04183D925A7392F006FE359 /* Debug */,
+				E04183DA25A7392F006FE359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E04183BC25A7392E006FE359 /* Project object */;
+}
